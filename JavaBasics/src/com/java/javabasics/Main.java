@@ -18,6 +18,29 @@ public class Main {
 		tiger.name="Bengal tiger";
 		tiger.roars();
 		
+		Rectangle r = new Rectangle();
+		r.setHeight(2);
+		r.setWidth(2);
+		System.out.println(r.height+" "+r.width);
+		Rectangle b = new Rectangle(5,10);
+		System.out.println(b.height+" "+b.width);
+
+		
+		Vehicle v = new Vehicle();
+		
+		v.horns();
+		v.speeds();
+		
+		Vehicle c = new Car("Benz");
+		c.horns();
+		c.speeds();
+		//c.colour();
+		
+		
+		
+		
+		
+		
 		
 	}
 
